@@ -1,0 +1,2 @@
+# website
+Snider CS Website
