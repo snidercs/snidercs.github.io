@@ -20,15 +20,12 @@ def main(json_file_name: str) -> bool:
             if os.path.exists(f"{path}/{base_name}.{what_format}"):
                 # if the zip file already exists delete it
                 os.remove(f"{path}/{base_name}.{what_format}")
-            # zip our media and move it to the correct directory
-            shutil.make_archive(base_name, what_format, root_dir)
-            shutil.move(f"{base_name}.{what_format}", path)
         # if it doesn't exist, make the path
         else:
             os.mkdir(path)
-            # zip our media and move it to the correct directory
-            shutil.make_archive(base_name, what_format, root_dir)
-            shutil.move(f"{base_name}.{what_format}", path)
+        # zip our media and move it to the correct directory
+        shutil.make_archive(base_name, what_format, root_dir)
+        shutil.move(f"{base_name}.{what_format}", path)
         return True
     except FileNotFoundError:
         print("File doesn't exist")
