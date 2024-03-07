@@ -2,6 +2,7 @@ import shutil
 import json
 import os
 
+# run this from the util directory
 
 def main(json_file_name: str) -> bool:
     """This is a function that will zip a file and place it in another."""
