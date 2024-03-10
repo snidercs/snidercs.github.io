@@ -2,6 +2,7 @@
 title = 'Code information'
 date = 2024-03-08T15:14:33-05:00
 draft = true
+author = 'beep boop'
 +++
 
 ## Introduction
