@@ -1,5 +1,3 @@
-# BOT LOG
+# SNIDER CS
 
-Welcome to the Botlog. 
-
-Here is where Snider Robotics will log our progress in bot development.
+This is the FWCS Snider Computer Science page. 
