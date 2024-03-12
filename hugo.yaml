@@ -8,7 +8,7 @@ params:
     enabled: true
     title: "Snider" # optional default will be site title
     subtitle: "Computer science..."
-    imageUrl: "" # optional
+    imageUrl: "/images/snider-logo-00.png"
     
     # imageTitle: "<title of image as alt>" # optional
     imageWidth: 256 # custom size
