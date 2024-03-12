@@ -4,8 +4,6 @@ title: Snider CS
 theme: PaperModX
 
 params:
-  #assets: THIS IS NOT WORKING -M CARAPIA
-  #  favicon: "favicon.ico"
   profileMode:
     enabled: true
     title: "Snider" # optional default will be site title
