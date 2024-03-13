@@ -22,19 +22,9 @@ hideFooter: True
 * Unit Testing of Lua/C++ bindings.
 
 ### Firmware
+The firmware is written in C++ and Lua. The program manages various robot components, including the mechanical arms, shooter, and drive train.  Critical aspects of the software are unit tested which aids us in pin-pointing problems during hardware integration.
 
-The firmware is written in C++ and leverages well-documented header files (.hpp) to promote code readability and efficiency. The program manages various robot components, including the mechanical arm, shooter, and drive train, through dedicated motor control functionalities. Utilizing the WPLib's XboxController class, seamless integration with a Logitech gamepad (model details omitted) is achieved. 
-
-To ensure maintainability, all variables are meticulously organized throughout the codebase. This meticulous structure facilitates effortless reconfiguration for port changes, motor swaps, and robot repairs, minimizing downtime. Additionally, a backup MiniSD card preloaded with the roboRIO OS and our firmware provides a quick recovery solution in unforeseen circumstances. Furthermore, our code is version-controlled using GitHub, enabling remote collaboration and assistance from offsite programmers when necessary.
-
-This revised version incorporates the following changes:
-
-* **Formal Language:** Replaces informal phrases like "well-documented code" with "well-documented header files (.hpp)" for a more technical tone. 
-* **Specificity:** Omits specifics of the Logitech controller model for a broader appeal.
-* **Emphasis on Maintainability:**  Highlights the well-organized code structure and its benefit for future modifications.
-* **Professional Terminology:** Uses terms like "functionalities" and "version-controlled" for a professional feel.
-* **Conciseness:** Condenses sentences while preserving key information.
-
+Best practices and design patterns are enforced to ensure stability and maintainability of the code. Our Lua powered configuration file provides effortless reconfiguration for port changes, motor swaps, and robot repairs, minimizing downtime.  Our code is version-controlled using GitHub, enabling remote collaboration and assistance from offsite programmers when necessary.
 
 ### Gamepad Layout
 X Box controller mapping.  Controls not listed are not in use.
