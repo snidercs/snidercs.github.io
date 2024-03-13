@@ -2,21 +2,24 @@ baseURL: 'https://example.org/'
 languageCode: en-us
 title: Snider CS
 theme: PaperModX
+
 params:
   profileMode:
     enabled: true
     title: "Snider" # optional default will be site title
     subtitle: "Computer science..."
-    imageUrl: "https://avatars.githubusercontent.com/u/157931423?s=400&u=d4d289dd78a0fc8bf066958df44269f82fafeca3&v=4" # optional
+    imageUrl: "/images/snider-logo-00.png"
+    
     # imageTitle: "<title of image as alt>" # optional
     imageWidth: 256 # custom size
     imageHeight: 256 # custom size
     buttons:
-      - name: News
-        url: "/posts"
       - name: Github
         url: "https://github.com/snidercs"
+      - name: Tags
+        url: tags
 
   socialIcons: # optional
     - name: "instagram"
       url: "https://www.instagram.com/snider_robotics9431/"
+  
