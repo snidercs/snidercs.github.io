@@ -1,0 +1,14 @@
+
+.post-content {
+    li {
+        margin: 0px;
+    }
+
+    th, td {
+        border:none;
+    }
+
+    tr:nth-child(even) {
+        background-color: #ededed;
+    }
+}
