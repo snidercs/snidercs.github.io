@@ -11,9 +11,7 @@ hideFooter: True
 ShowRssButtonInSectionTermList: true
 ---
 
-![Placeholder group photo](https://fakeimg.pl/1200x800)
-Here is the team!
-
+![Placeholder group photo](/images/team-shot-00.jpg)
 
 
 We are Snider 9431. The "Gold Standard". Here at Snider we aspire to create the highest quality bot (hence the "Gold Standard"). 
@@ -22,6 +20,3 @@ We hit these goals by having quality
 - Software
 - Engineering
 - Marketing
-
-
-
