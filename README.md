@@ -1,5 +1,5 @@
-# website
-Snider CS Website
+# snidercs.org
+The Snider CS Website
 
 ## Clone
 ```bash
@@ -8,15 +8,18 @@ cd website-static
 git submodule update --init
 ```
 
-## Theme Features and Help
-https://github.com/adityatelange/hugo-PaperMod/wiki/Features
-
-## Useful Hugo commands
-
+## Creating a new Blog Post
 Hugo will create the dir and MD. Hugo will also populate the MD file with datetime of creation.
 ```bash
-hugo new content <dir>/example.md
+hugo new content/posts/title-of-article.md
 ```
+## Creating a new Pages
+Pages are slightly different than posts. `page-name` below will be part of the URL. e.g. `snidercs.org/page-name` for this example. `_index.md` lets hugo know to use a page-like template.
+```bash
+hugo new content/page-name/_index.md
+```
+
+## Local Webserver
 Start up the Hugo website with
 ```bash
 hugo server -D
