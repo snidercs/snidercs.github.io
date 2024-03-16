@@ -8,7 +8,6 @@ ShowPostNavLinks: true
 ShowReadingTime: true
 author: 'Martin Carapia'
 hideFooter: True
-weight: 1
 ---
 
 This is an example blog post.
