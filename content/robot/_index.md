@@ -3,7 +3,7 @@ linkTitle: Robot
 title:  Robot - FRC 2024
 date:   2024-03-11T18:36:45-04:00
 draft:  false
-tags: ['robot']
+tags: ['robot', 'frc']
 menu:
   main:
     identifier: robot
