@@ -4,6 +4,8 @@ title: Snider CS
 theme: PaperModX
 
 params:
+  disableThemeToggle: true
+  defaultTheme: dark
   profileMode:
     enabled: true
     title: "Snider" # optional default will be site title
