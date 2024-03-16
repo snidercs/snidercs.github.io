@@ -8,6 +8,8 @@ ShowPostNavLinks: true
 ShowReadingTime: true
 ---
 
+![PNG Compression](/images/featured-png.png)
+
 ### What is optipng?
 
 `optipng` is a command-line tool that optimizes PNG images. It works by recompressing image files to reduce their size while maintaining the original image quality—this is known as "lossless" compression. Smaller image files are a significant advantage for websites.
