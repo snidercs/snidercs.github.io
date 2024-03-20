@@ -3,6 +3,7 @@ linkTitle: About Us
 title:  About Snider Computer Science
 date: 2024-03-11T21:38:28-04:00
 draft: false
+layout: page
 menu:
   main:
     identifier: About
