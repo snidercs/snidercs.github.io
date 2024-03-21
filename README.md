@@ -14,9 +14,9 @@ Hugo will create the dir and MD. Hugo will also populate the MD file with dateti
 hugo new content/posts/title-of-article.md
 ```
 ## Creating new Pages
-Pages are slightly different than posts. `page-name` below will be part of the URL. e.g. `snidercs.org/page-name` for this example. `_index.md` lets hugo know to use a page-like template.
+Pages are slightly different than posts. `page-name` below will be part of the URL. e.g. `snidercs.org/page-name` for this example. `index.md` lets hugo know to use a page-like template.
 ```bash
-hugo new content/page-name/_index.md
+hugo new content/page-name/index.md
 ```
 
 ## Local Webserver
