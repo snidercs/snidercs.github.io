@@ -4,7 +4,7 @@ title:  Robot - FRC 2024
 date:   2024-03-11T18:36:45-04:00
 draft:  false
 layout: page
-# tags: ['robot', 'frc']
+tags: ['robot', 'frc']
 menu:
   main:
     identifier: robot
@@ -25,6 +25,11 @@ Params:
 * Smart confguration file via Lua.
 * Ultra low latency timed robot.
 * Fast code deploys when only Lua code changes.
+
+### Hardware
+Weighing in at a wopping one hundred thirty five pounds (135 lbs), and effective use of four CIM motors for tank driving, Snider 9431 is your choice of defense. We can hang too! With the power of two NEO Brushless Motor and a 36:1 planetary kit, 9431 will be hanging on stage for some rocking points!
+All of our [motors](#motors) utilize Spark Max's motor controllers, which are controlled by our super quick-to-compile [C++ code](#firmware). With the struggles of a rookie team being, well a rookie team, most of our parts are recycled from bits and peices being thrown out by our school. For example, the base of our robot is made out of an old display case. That being said, our robot is incredibly durable, clean, and a perfect addition to your allience. 
+
 
 ### Firmware
 The firmware is written in C++ and Lua. Our `frc::TimedRobot` handles robot setup and pre/post processing inside `init/periodic/exit` callbacks.  Our periodic (a.k.a. realtime) code path guarantees not to dynamically allocate and does not use thread locking anywhere. The system runs at approximately 4ms cycles. The lifter, shooter, and drivetrain control logic is handled in Lua as a type of middleware with the same basic realtime guarantees.
