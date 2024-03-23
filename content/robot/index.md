@@ -4,7 +4,7 @@ title:  Robot - FRC 2024
 date:   2024-03-11T18:36:45-04:00
 draft:  false
 layout: page
-# tags: ['robot', 'frc']
+tags: ['robot', 'frc']
 menu:
   main:
     identifier: robot
@@ -27,7 +27,8 @@ Params:
 * Fast code deploys when only Lua code changes.
 
 ### Hardware
-Our robot is powered off of four CIM motors and uses tank driving. Weighing in at roughly 135 pounds, our robot is really effective at playing defense. We have two arms powered with a NEO Brushless Motor and a 36:1 planetary kit. We run all of our motors off Spark Max's motor controllers, which are controlled by our super quick-to-compile C++ code. Being a rookie team, we had to resort to using some unusual parts to construct the physical bot. The base is made out of an old display case, and many of our components were found laying around the school. That being said, our robot is incredibly durable and clean. 
+Weighing in at a wopping one hundred thirty five pounds (135 lbs), and effective use of four CIM motors for tank driving, Snider 9431 is your choice of defense. We can hang too! With the power of two NEO Brushless Motor and a 36:1 planetary kit, 9431 will be hanging on stage for some rocking points!
+All of our [motors](#motors) utilize Spark Max's motor controllers, which are controlled by our super quick-to-compile [C++ code](#firmware). With the struggles of a rookie team being, well a rookie team, most of our parts are recycled from bits and peices being thrown out by our school. For example, the base of our robot is made out of an old display case. That being said, our robot is incredibly durable, clean, and a perfect addition to your allience. 
 
 
 ### Firmware
