@@ -26,6 +26,10 @@ Params:
 * Ultra low latency timed robot.
 * Fast code deploys when only Lua code changes.
 
+### Hardware
+Our robot is powered off of four CIM motors and uses tank driving. Weighing in at roughly 135 pounds, our robot is really effective at playing defense. We have two arms powered with a NEO Brushless Motor and a 36:1 planetary kit. We run all of our motors off Spark Max's motor controllers, which are controlled by our super quick-to-compile C++ code. Being a rookie team, we had to resort to using some unusual parts to construct the physical bot. The base is made out of an old display case, and many of our components were found laying around the school. That being said, our robot is incredibly durable and clean. 
+
+
 ### Firmware
 The firmware is written in C++ and Lua. Our `frc::TimedRobot` handles robot setup and pre/post processing inside `init/periodic/exit` callbacks.  Our periodic (a.k.a. realtime) code path guarantees not to dynamically allocate and does not use thread locking anywhere. The system runs at approximately 4ms cycles. The lifter, shooter, and drivetrain control logic is handled in Lua as a type of middleware with the same basic realtime guarantees.
 
