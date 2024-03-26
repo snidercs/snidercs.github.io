@@ -3,8 +3,8 @@ The Snider CS Website
 
 ## Clone
 ```bash
-git clone git@github.com:snidercs/website-static
-cd website-static
+git clone git@github.com:snidercs/snidercs.github.io
+cd snidercs.github.io
 git submodule update --init
 ```
 
