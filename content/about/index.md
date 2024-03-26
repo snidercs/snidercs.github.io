@@ -19,7 +19,7 @@ ShowRssButtonInSectionTermList: true
 * **Fort Wayne Community Schools (FWCS) Technology Focus:** FWCS places a decent emphasis on technology across their schools.  The website has a Technology Department section: [https://www.fortwayneschools.org/departments/technology](https://www.fortwayneschools.org/departments/technology) outlining our general initiatives.
 * **Snider High School Website:** Check the school's website ([https://snider.fortwayneschools.org/](https://snider.fortwayneschools.org/)) for course listings or descriptions. Look for terms like "computer science", "programming", "technology," or "coding."
 
-**How to Find More Specific Information about Snider**
+## How to Find More Specific Information about Snider
 
 * **Contact the School Directly:** The most reliable way to get up-to-date information about Snider's computer science offerings is to:
     * **Guidance Counselor:** Ask about computer science courses, electives, and any clubs or teams related to coding or technology.

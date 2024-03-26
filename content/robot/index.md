@@ -17,6 +17,14 @@ Params:
 
 ![FRC Robot 2024](/images/featured-bot-00.png)
 
+### Alliance Summary
+ * Different Autonomus modes to pair with your alliance style
+ * Ability To Hang On the Chain
+ * Ability To Shoot notes into speaker
+ * Blocking Capabilites
+
+ 
+
 ### Features
 * Differential drive.
 * Heavy weight blocker.
@@ -28,7 +36,7 @@ Params:
 
 ### Hardware
 Weighing in at a wopping one hundred thirty five pounds (135 lbs), and effective use of four CIM motors for tank driving, Snider 9431 is your choice of defense. We can hang too! With the power of two NEO Brushless Motor and a 36:1 planetary kit, 9431 will be hanging on stage for some rocking points!
-All of our [motors](#motors) utilize Spark Max's motor controllers, which are controlled by our super quick-to-compile [C++ code](#firmware). With the struggles of a rookie team being, well a rookie team, most of our parts are recycled from bits and peices being thrown out by our school. For example, the base of our robot is made out of an old display case. That being said, our robot is incredibly durable, clean, and a perfect addition to your allience. 
+All of our [motors](#motors) utilize Spark Max's motor controllers, which are controlled by our super quick-to-compile [C++ code](#firmware). With the struggles of a rookie team being, well a rookie team, most of our parts are recycled from bits and peices being thrown out by our school. For example, the base of our robot is made out of an old display case. That being said, our robot is incredibly durable, clean, and a perfect addition to your alliance. 
 
 
 ### Firmware
