@@ -23,7 +23,6 @@ Params:
  * Ability To Shoot notes into speaker
  * Blocking Capabilites
 
- 
 
 ### Features
 * Differential drive.
