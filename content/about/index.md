@@ -28,3 +28,5 @@ ShowRssButtonInSectionTermList: true
 * **Course Catalog:** Niche has a page for Snider High School ([https://www.niche.com/k12/r-nelson-snider-high-school-fort-wayne-in/academics/](https://www.niche.com/k12/r-nelson-snider-high-school-fort-wayne-in/academics/)). While not always perfectly up-to-date, it might list popular courses or areas of focus.
 
 * **FWCS District-Level Information:** The Fort Wayne Schools website may have a curriculum section outlining technology standards or computer science pathways across the district.
+
+* Snider Computer Science [mission statement](/mission_statement)
