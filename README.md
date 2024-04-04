@@ -25,3 +25,6 @@ Start up the Hugo website with
 hugo server -D
 ```
 The `-D` flag means Hugo will also generate MD files with draft = true.
+
+## First Scoring API Docs
+https://frc-api-docs.firstinspires.org/
