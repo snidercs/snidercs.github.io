@@ -8,7 +8,7 @@ tags: ['stats', 'frc']
 #menu:
  # main:
   #    identifier: -> We Made State <-
-   #   weight: 5
+   #  weight: 5
 hideFooter: false
 Params:
   ShowReadingTime: false
