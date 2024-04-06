@@ -18,10 +18,11 @@ Params:
 ![FRC Robot 2024](/images/featured-bot-00.png)
 
 ### Alliance Summary
- * Different Autonomus modes to pair with your alliance style
- * Ability To Hang On the Chain
- * Ability To Shoot notes into speaker
- * Blocking Capabilites
+ * Different Autonomous modes to pair with your alliance style
+ * Ability to hang on the Stage
+ * Ability to shoot notes into Speaker
+ * Blocking capabilites
+ * Ability to score notes in auto
 
 
 ### Features
@@ -32,9 +33,10 @@ Params:
 * Smart confguration file via Lua.
 * Ultra low latency timed robot.
 * Fast code deploys when only Lua code changes.
+* High and Low Gear modes for more acurate driving
 
 ### Hardware
-Weighing in at a wopping one hundred thirty five pounds (135 lbs), and effective use of four CIM motors for tank driving, Snider 9431 is your choice of defense. We can hang too! With the power of two NEO Brushless Motor and a 36:1 planetary kit, 9431 will be hanging on stage for some rocking points!
+Weighing in at a wopping one hundred twenty four pounds (124 lbs), and effective use of four CIM motors for tank driving, Snider 9431 is your choice of defense. We can hang too! With the power of two NEO Brushless Motor and a 36:1 planetary kit, 9431 will be hanging on stage for some rocking points!
 All of our [motors](#motors) utilize Spark Max's motor controllers, which are controlled by our super quick-to-compile [C++ code](#firmware). With the struggles of a rookie team being, well a rookie team, most of our parts are recycled from bits and peices being thrown out by our school. For example, the base of our robot is made out of an old display case. That being said, our robot is incredibly durable, clean, and a perfect addition to your alliance. 
 
 
@@ -66,6 +68,7 @@ X Box controller mapping.  Controls not listed are not in use.
 | Left Trigger  | Apply brakes                |
 | Left Bumper   | Note intake                 |
 | Right Bumper  | Note shooting               |
-| Right Trigger | Brake                       |
 | Y             | Arm up                      |
 | A             | Arm down                    |
+| X             | High Gear                   |
+| B             | Low Gear (Half Speed)       |
