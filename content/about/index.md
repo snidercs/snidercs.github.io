@@ -12,7 +12,7 @@ hideFooter: True
 ShowRssButtonInSectionTermList: true
 ---
 
-![Robotics Team](/images/team-shot-00.png)
+![Robotics Team](images/snider_robotics_team_1280.png)
 
 ## General Information
 
