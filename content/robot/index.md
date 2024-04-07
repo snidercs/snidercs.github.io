@@ -21,8 +21,9 @@ Params:
  * Different Autonomous modes to pair with your alliance style
  * Ability to hang on the Stage
  * Ability to shoot notes into Speaker
+ * Ability to shoot notes into Amp
  * Blocking capabilites
- * Ability to score notes in auto
+ * Ability to score notes in Auto
 
 
 ### Features
@@ -32,7 +33,7 @@ Params:
 * Languages: C++ and Lua ([JIT enabled](https://luajit.org)).
 * Smart confguration file via Lua.
 * Ultra low latency timed robot.
-* Fast code deploys when only Lua code changes.
+* Fast code deploys.
 * High and Low Gear modes for more acurate driving
 
 ### Hardware
@@ -54,21 +55,24 @@ Motor controllers used in all moving parts.
 | M3    | SparkMax   | Drivetrain secondary (left)  |
 | M4    | SparkMax   | Drivetrain secondary (right) |
 | M5    | SparkMax   | Lifter arm (left)            |
-| M5    | SparkMax   | Lifter arm (right)           |
-| M5    | SparkMax   | Shooter main (top)           |
-| M5    | SparkMax   | Shooter main (bottom)        |
-| M5    | SparkMax   | Shooter support              |
+| M6    | SparkMax   | Lifter arm (right)           |
+| M7    | SparkMax   | Shooter main (top)           |
+| M8    | SparkMax   | Shooter main (bottom)        |
+| M9    | SparkMax   | Shooter support              |
 
 ### Gamepad Layout
-X Box controller mapping.  Controls not listed are not in use.
+X Box controller mapping.  Unlisted buttons are unassigned.
 |  Button/Stick |             Action          |
 |---------------|:---------------------------:|
-| Left Axis     | Forward and backward motion |
-| Right Axis    | Rotation                    |
-| Left Trigger  | Apply brakes                |
+| Left Axis     | Forward and backward drive  |
+| Right Axis    | Left/Right Rotation         |
+| Up D-pad      | Shooter 80% power           |
+| Right D-pad   | Shooter 60% power           |
+| Down D-pad    | Shooter 40% power           |
+| Left D-pad    | Shooter 20% power           |
 | Left Bumper   | Note intake                 |
-| Right Bumper  | Note shooting               |
+| Right Bumper  | Shooter 100% power          |
 | Y             | Arm up                      |
 | A             | Arm down                    |
 | X             | High Gear                   |
-| B             | Low Gear (Half Speed)       |
+| B             | Low Gear (25% power)        |
