@@ -2,7 +2,7 @@
 title: {{ replace .File.ContentBaseName "-" " " | title }}
 date: {{ .Date }}
 draft: true
-hideFooter: True
+hideFooter: true
 ShowWordCount: true
 ShowPostNavLinks: true
 ShowReadingTime: true
