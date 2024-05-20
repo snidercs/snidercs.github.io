@@ -1,3 +1,4 @@
 *.zip
 /public/*
 /resources
+/.vscode
