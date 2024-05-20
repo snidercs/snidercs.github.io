@@ -1,5 +1,5 @@
 ---
-title: Nelson
+title: Nelson | 2024
 date: 2024-03-11T18:36:45-04:00
 draft: false
 hideFooter: true
@@ -8,6 +8,7 @@ ShowPostNavLinks: true
 ShowReadingTime: true
 ---
 
+Result: FRC Houston World Rank 58 in Milstein with a record of 4-6-0 (Win-Loss-Tie)
 
 ![FRC Robot 2024](/images/featured-bot-00.png)
 
