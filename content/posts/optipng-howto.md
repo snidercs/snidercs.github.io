@@ -25,17 +25,20 @@ ShowReadingTime: true
 The installation process varies slightly depending on your Linux distribution:
 
 #### Debian/Ubuntu based
+
 ```bash
 sudo apt-get update
 sudo apt-get install optipng
 ```
 
 #### Fedora/RHEL based
+
 ```bash
 sudo dnf install optipng 
 ```
 
 #### Arch based
+
 ```bash
 sudo pacman -S optipng
 ```
@@ -45,28 +48,33 @@ sudo pacman -S optipng
 #### Basic Usage
 
 **Optimize all PNGs in the current directory:**
-   ```bash
-   optipng *.png
-   ```
+
+```bash
+optipng *.png
+```
 
 #### Advanced Examples
 
 **Optimize PNGs in the current directory and all subdirectories recursively:**
-   ```bash
-   optipng -dir . *.png 
-   ```
+
+```bash
+optipng -dir . *.png 
+```
 
 **Optimize PNGs while preserving the original file's timestamp (useful for version control):**
+
 ```bash
 optipng -preserve *.png
 ```
 
 **More aggressive optimization level (slightly slower, but can yield better compression):**
+
 ```bash
 optipng -o7 *.png
 ```
 
 **Optimize only PNGs that are larger than 500KB:**
+
 ```bash
 find . -size +500k -iname "*.png" -exec optipng -o7 {} \; 
 ```
@@ -81,9 +89,8 @@ find . -size +500k -iname "*.png" -exec optipng -o7 {} \;
 
 * `optipng` works in-place, meaning it directly modifies the original files. It's always advisable to create backups of your images before running large batch optimizations.
 
-
-
 ### Using a Bash Script + `find`
+
 Here's a simple bash script to optimize all PNG files in a directory:
 
 ```bash
@@ -94,14 +101,14 @@ for file in *.png; do
 done
 ```
 
-**How to Use the Script**
+#### How to Use the Script
 
 1. **Save:** Save the code above as a file (e.g., `optimize_images.sh`)
 2. **Place in Directory:** Put the script file in the directory containing your PNG images.
 3. **Make Executable:**  Run `chmod +x optimize_images.sh` in your terminal to make the script executable.
 4. **Run:** Execute the script by typing `./optimize_images.sh`
 
-**Important Notes**
+##### Important Notes
 
 * Optipng creates optimized versions of images. It's a good practice to back up your original images before running it.
 * The script overwrites the original PNGs. If you want to keep the originals, modify the script to save optimized versions with a different filename.

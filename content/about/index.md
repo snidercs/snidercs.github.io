@@ -7,7 +7,7 @@ layout: page
 menu:
   main:
     identifier: About
-    weight: 4
+    weight: 10
 hideFooter: True
 ShowRssButtonInSectionTermList: true
 ---
@@ -22,8 +22,8 @@ ShowRssButtonInSectionTermList: true
 ## More Snider Info
 
 * **Contact the School Directly:** The most reliable way to get up-to-date information about Snider's computer science offerings is to:
-    * **Guidance Counselor:** Ask about computer science courses, electives, and any clubs or teams related to coding or technology.
-    * **Computer Science Teacher:** Can provide details about curriculum, projects, and any specializations offered.
+  * **Guidance Counselor:** Ask about computer science courses, electives, and any clubs or teams related to coding or technology.
+  * **Computer Science Teacher:** Can provide details about curriculum, projects, and any specializations offered.
 
 * **Course Catalog:** Niche has a page for Snider High School ([https://www.niche.com/k12/r-nelson-snider-high-school-fort-wayne-in/academics/](https://www.niche.com/k12/r-nelson-snider-high-school-fort-wayne-in/academics/)). While not always perfectly up-to-date, it might list popular courses or areas of focus.
 

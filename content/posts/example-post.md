@@ -14,6 +14,7 @@ This is an example blog post.
 
 These posts will include a couple paragraphs on progress.
 This includes updates like
+
 - Mechanical
 - Firmware
 - Business
