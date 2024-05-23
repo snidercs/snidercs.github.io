@@ -2,7 +2,7 @@
 linkTitle: Robot
 title:  Robot - FRC 2025
 date:   2024-03-11T18:36:45-04:00
-draft:  true
+draft:  false
 layout: page
 tags: ['robot', 'frc']
 menu:
