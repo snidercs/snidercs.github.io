@@ -24,4 +24,8 @@ params:
   socialIcons: # optional
     - name: "instagram"
       url: "https://www.instagram.com/snider_robotics9431/"
+    - name: "Twitter"
+      url: "https://x.com/SniderRobotics"
+    - name: "Facebook"
+      url: "https://www.facebook.com/people/Snider-Robotic/pfbid0y1qwuKQtraCdo3PD5KCwwHB1srKNbVP78xV4veUubL3hLjtnaq6r77xWARJ6XSH8l/"
   
