@@ -1,6 +1,6 @@
 baseURL: 'https://snidercs.githubpages.io'
 languageCode: en-us
-title: Snider CS
+title: Team 9431 # new name, keeping it simple
 theme: PaperModX
 
 params:
@@ -8,8 +8,8 @@ params:
   defaultTheme: dark
   profileMode:
     enabled: true
-    title: "Snider" # optional default will be site title
-    subtitle: "Computer science..."
+    title: "The Gold Standard" # optional default will be site title
+    subtitle: "Snider's FRC Team 9431"
     imageUrl: "/images/snider-logo-00.png"
     
     # imageTitle: "<title of image as alt>" # optional
